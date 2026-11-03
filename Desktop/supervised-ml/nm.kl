@@ -1,0 +1,11 @@
+from sklearn.linear_model import linearRegression
+#Features (bid)
+x= [[2300],[4500],[7600],[9000]]
+#labels
+y=[60000, 90000,23000,57000]
+model=linearRegression
+model.fit(x,y)
+#make prediction
+bid=8760
+prediction=model.predict([[bid]])
+print(round(prediction[0],1))

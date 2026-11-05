@@ -20,3 +20,16 @@ Install dependecies:pip install scikit-learn, pip install matplotlib. Running co
 6.fit() trains a model by calculating its optimal parameters from training data while predict() uses the learned parameters to generate output for new and unseen data.
 7. Supervised learning: a)Spam detection to intercept junk mails. b)Fraud detection in financial platforms such as banks.
  Unsupervised learning:a)Customer segmentation b)Biology and genetics to discover evolutionary relationships.
+
+
+
+##Additional notes
+This project demonstrates two important machine learning approaches: supervised learning through linear regression and unsupervised learnig through K-Means clustering
+
+###Possible improvements
+-Evaluate the linear regression model using MAE,MSE and R-squared.
+-Apply feature scaling before performing K-Means clustering
+-Experiment with different cluster numbers using the Elbow method.
+
+###Contributer
+-Glow (glow-ctrl):Documentation improvements 
